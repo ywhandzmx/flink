@@ -20,9 +20,10 @@ package org.apache.flink.api.common.io;
 
 import org.apache.flink.annotation.Experimental;
 import org.apache.flink.annotation.VisibleForTesting;
-import org.apache.flink.util.Preconditions;
 
-import org.apache.flink.shaded.guava31.com.google.common.util.concurrent.FutureCallback;
+import org.apache.flink.shaded.guava33.com.google.common.util.concurrent.FutureCallback;
+
+import org.apache.flink.util.Preconditions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

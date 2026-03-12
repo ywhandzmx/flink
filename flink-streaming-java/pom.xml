@@ -57,6 +57,12 @@ under the License.
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>flink-shaded-guava</artifactId>
+					<groupId>org.apache.flink</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -69,6 +75,12 @@ under the License.
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-runtime</artifactId>
 			<version>${project.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>flink-shaded-guava</artifactId>
+					<groupId>org.apache.flink</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -80,6 +92,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-shaded-guava</artifactId>
+			<version>33.4.0-jre-20.0</version>
 		</dependency>
 
 		<dependency>
@@ -101,6 +114,12 @@ under the License.
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>flink-shaded-guava</artifactId>
+					<groupId>org.apache.flink</groupId>
+				</exclusion>
+			</exclusions>
 			<type>test-jar</type>
 		</dependency>
 
@@ -114,6 +133,12 @@ under the License.
 			<artifactId>flink-runtime</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>flink-shaded-guava</artifactId>
+					<groupId>org.apache.flink</groupId>
+				</exclusion>
+			</exclusions>
 			<type>test-jar</type>
 		</dependency>
 

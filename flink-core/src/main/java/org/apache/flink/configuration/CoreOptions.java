@@ -24,9 +24,10 @@ import org.apache.flink.annotation.docs.ConfigGroup;
 import org.apache.flink.annotation.docs.ConfigGroups;
 import org.apache.flink.annotation.docs.Documentation;
 import org.apache.flink.configuration.description.Description;
-import org.apache.flink.util.ArrayUtils;
 
-import org.apache.flink.shaded.guava31.com.google.common.collect.Iterables;
+import org.apache.flink.shaded.guava33.com.google.common.collect.Iterables;
+
+import org.apache.flink.util.ArrayUtils;
 
 import java.util.List;
 

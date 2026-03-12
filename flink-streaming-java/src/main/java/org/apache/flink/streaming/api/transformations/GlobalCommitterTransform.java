@@ -28,7 +28,7 @@ import org.apache.flink.streaming.api.connector.sink2.StandardSinkTopologies;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.util.function.SerializableSupplier;
 
-import org.apache.flink.shaded.guava31.com.google.common.collect.Lists;
+import org.apache.flink.shaded.guava33.com.google.common.collect.Lists;
 
 import java.util.Collections;
 import java.util.List;

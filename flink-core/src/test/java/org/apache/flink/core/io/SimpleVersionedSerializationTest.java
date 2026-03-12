@@ -21,7 +21,8 @@ package org.apache.flink.core.io;
 import org.apache.flink.core.memory.DataInputDeserializer;
 import org.apache.flink.core.memory.DataOutputSerializer;
 
-import org.apache.flink.shaded.guava31.com.google.common.collect.ImmutableList;
+
+import org.apache.flink.shaded.guava33.com.google.common.collect.ImmutableList;
 
 import org.junit.jupiter.api.Test;
 
